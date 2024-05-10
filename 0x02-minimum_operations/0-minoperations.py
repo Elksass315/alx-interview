@@ -22,7 +22,6 @@ def minOperations(n):
             done += clipboard
             ops_count += 2
         elif clipboard > 0:
-            
             done += clipboard
             ops_count += 1
     return ops_count
